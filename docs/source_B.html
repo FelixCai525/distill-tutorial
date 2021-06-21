@@ -86,29 +86,33 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Title of My Final Project: About this site</title>
+  <title>Title of My Final Project: Source B</title>
 
-  <meta property="description" itemprop="description" content="Some additional details about the website"/>
+  <meta property="description" itemprop="description" content="Detailed notes for Source B."/>
 
 
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2021-06-21"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-06-21"/>
+  <meta name="article:author" content="Felix Cai"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Title of My Final Project: About this site"/>
+  <meta property="og:title" content="Title of My Final Project: Source B"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Some additional details about the website"/>
+  <meta property="og:description" content="Detailed notes for Source B."/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Title of My Final Project"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Title of My Final Project: About this site"/>
-  <meta property="twitter:description" content="Some additional details about the website"/>
+  <meta property="twitter:title" content="Title of My Final Project: Source B"/>
+  <meta property="twitter:description" content="Detailed notes for Source B."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About this site"]},{"type":"character","attributes":{},"value":["Some additional details about the website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Source B"]},{"type":"character","attributes":{},"value":["Detailed notes for Source B.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Felix Cai"]}]}]},{"type":"character","attributes":{},"value":["2021-06-21"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2053,7 +2057,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About this site","description":"Some additional details about the website","authors":[]}
+{"title":"Source B","description":"Detailed notes for Source B.","authors":[{"author":"Felix Cai","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-06-21T00:00:00.000-04:00","citationText":"Cai, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2086,30 +2090,21 @@ Sources
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>About this site</h1>
+<h1>Source B</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Some additional details about the website</p></p>
+<p><p>Detailed notes for Source B.</p></p>
 </div>
 
+<div class="d-byline">
+  Felix Cai  
+  
+<br/>2021-06-21
+</div>
 
 <div class="d-article">
-<h2 id="about-me">About Me</h2>
-<h3 id="my-name-is-felix-cai-and-i-went-to-white-oaks-secondary-school.">My name is <strong>Felix Cai</strong> and I went to White Oaks Secondary School.</h3>
-<h2 id="about-the-project">About the Project</h2>
-<h3 id="covid-19-and-gdp">Covid-19 and GDP</h3>
-<p>My project, <em>Covid-19 and GDP</em>, explores the correlation between GDP and Covid-19 confirmed cases.</p>
-<h3 id="goals">Goals</h3>
-<ul>
-<li><p>Discover the relationship between Covid-19 confirmed cases and GDP.</p></li>
-<li><p>Learn about creating websites with Distill.</p>
-<ul>
-<li>Complete the Distill tutorial.</li>
-</ul></li>
-</ul>
-<h2 id="this-is-data-science">“This is data science”</h2>
-<p>~ Preceptor</p>
-<p><a href="https://bootcamp.davidkane.info">Kane’s Free High School Data Science Bootcamp</a></p>
+<p>Distill is a publication format for scientific and technical writing, native to the web.</p>
+<p>Learn more about using Distill for R Markdown at <a href="https://rstudio.github.io/distill" class="uri">https://rstudio.github.io/distill</a>.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

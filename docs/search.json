@@ -6,7 +6,7 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\nAbout Me\r\nMy name is Felix Cai and I went to White Oaks Secondary School.\r\nAbout the Project\r\nCovid-19 and GDP\r\nMy project, Covid-19 and GDP, explores the correlation between GDP and Covid-19 confirmed cases.\r\nGoals\r\nDiscover the relationship between Covid-19 confirmed cases and GDP.\r\nLearn about creating websites with Distill.\r\nComplete the Distill tutorial.\r\n\r\n“This is data science”\r\n~ Preceptor\r\nKane’s Free High School Data Science Bootcamp\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-21T18:59:16-04:00"
+      "last_modified": "2021-06-21T19:16:47-04:00"
     },
     {
       "path": "index.html",
@@ -14,7 +14,30 @@
       "description": "This is where I will describe my final project.\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-21T18:59:20-04:00"
+      "last_modified": "2021-06-21T19:16:51-04:00"
+    },
+    {
+      "path": "source_A.html",
+      "title": "Source A",
+      "description": "Detailed notes for Source A.\n",
+      "author": [],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-21T19:16:51-04:00"
+    },
+    {
+      "path": "source_B.html",
+      "title": "Source B",
+      "description": "Detailed notes for Source B.\n",
+      "author": [
+        {
+          "name": "Felix Cai",
+          "url": {}
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-21T19:16:52-04:00"
     }
   ],
   "collections": []
