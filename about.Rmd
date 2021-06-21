@@ -8,3 +8,26 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## About Me
+
+### My name is **Felix Cai** and I went to White Oaks Secondary School.
+
+## About the Project
+
+### Covid-19 and GDP
+
+My project, *Covid-19 and GDP*, explores the correlation between GDP and Covid-19 confirmed cases.
+
+### Goals
+
+*   Discover the relationship between Covid-19 confirmed cases and GDP.
+
+*   Learn about creating websites with Distill.
+
+    +   Complete the Distill tutorial.
+    
+    
+## "This is data science"  
+~ Preceptor
+
+[Kane's Free High School Data Science Bootcamp](https://bootcamp.davidkane.info)
