@@ -8,11 +8,21 @@ site: distill::distill_website
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
+library(tidyverse)
+library(ggthemes)
+```
 
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
-
+```{r car-plot}
+mtcars %>% 
+ select(mpg, wt) %>% 
+  ggplot(aes(wt, mpg)) +
+   geom_point() +
+   geom_smooth(method = "lm", formula = y ~ x, se = FALSE) +
+   theme_clean() +
+   labs(title = "Fuel Efficiency and Weight",
+        subtitle = "Heavier cars are less fuel efficient",
+        x = "Weight (1,000s of lbs)",
+        y = "MPG",
+        caption = "Henderson & Vellerman")
 ```
 
